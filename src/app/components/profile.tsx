@@ -22,7 +22,7 @@ export default function Profile() {
           <h1 className="text-3xl font-bold mb-4">Mizuki Taniguchi</h1>
           <p className="text-gray-300">
             {/* Web Developer. Orienteer. \n Currently studying at University of Tsukuba. */}
-            <span className="block">Web Developer.</span>
+            <span className="block">Web Engineer.</span>
             <span className="block">Orienteer.</span>
             <span className="block">
               Currently studying at University of Tsukuba.

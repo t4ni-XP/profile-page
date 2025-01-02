@@ -1,18 +1,22 @@
 import Profile from './components/profile';
 import Interests from './components/interests';
 import TechStack from './components/techStacks';
+import Career from './components/career';
 
 export default function Home() {
   return (
-    <div className="flex-col items-center min-h-screen bg-gray-800 text-gray-100 w-2/3 mt-24">
-      <div className="w-fill">
+    <div className="flex flex-col items-center bg-gray-800 text-gray-100 w-2/3 min-h-screen mt-24">
+      <div className="w-full">
         <Profile />
       </div>
-      <div className="w-fill">
+      <div className="w-full">
         <Interests />
       </div>
-      <div className="w-fill">
+      <div className="w-full">
         <TechStack />
+      </div>
+      <div className="w-full">
+        <Career />
       </div>
     </div>
   );
