@@ -18,14 +18,14 @@ export default function TechStack() {
         </div>
 
         {/* JavaScript */}
-        <div className="flex flex-col items-center">
+        {/* <div className="flex flex-col items-center">
           <Image
             src="/js.png"
             alt="JavaScript Logo"
             width={60}
             height={60}
           />
-        </div>
+        </div> */}
 
         {/* TypeScript */}
         <div className="flex flex-col items-center">
