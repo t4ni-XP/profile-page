@@ -8,19 +8,19 @@ export default function Career() {
         //     description: "Worked on building modern web applications using Next.js.",
         // },
         {
-            year: "2024/11-",
-            title: "Web Developer Intern at Yard corp.",
-            description: "Worked on building modern web applications using Next.js.",
+            year: "2024/11 - Present",
+            title: "Web Developer Intern at Yard Corp.",
+            description: "Developing modern web applications using Next.js.",
         },
         {
             year: "2024/04",
-            title: "Joined System Security Research Group.",
-            description: "Started research on web security and privacy.",
+            title: "Joined the System Security Research Group.  ",
+            description: "Began research on web security and privacy.",
         },
         {
             year: "2021/04",
-            title: "Admitted to University of Tsukuba.",
-            description: "Started studying Computer Science.",
+            title: "Admitted to the University of Tsukuba.",
+            description: "Started pursuing a degree in Computer Science.",
         },
         {
             year: "2002/04/15",
