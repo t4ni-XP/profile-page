@@ -1,5 +1,6 @@
 import Profile from './components/profile';
 import Interests from './components/interests';
+import TechStack from './components/techStacks';
 
 export default function Home() {
   return (
@@ -9,6 +10,9 @@ export default function Home() {
       </div>
       <div className="w-fill">
         <Interests />
+      </div>
+      <div className="w-fill">
+        <TechStack />
       </div>
     </div>
   );
