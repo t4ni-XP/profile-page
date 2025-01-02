@@ -8,7 +8,7 @@ export default function Career() {
         //     description: "Worked on building modern web applications using Next.js.",
         // },
         {
-            year: "2024/11",
+            year: "2024/11-",
             title: "Web Developer Intern at Yard corp.",
             description: "Worked on building modern web applications using Next.js.",
         },
@@ -20,7 +20,7 @@ export default function Career() {
         {
             year: "2021/04",
             title: "Admitted to University of Tsukuba.",
-            description: "Pursued a degree in Computer Science.",
+            description: "Started studying Computer Science.",
         },
         {
             year: "2002/04/15",
@@ -37,7 +37,7 @@ export default function Career() {
                 <div className="absolute left-6 top-0 w-2 h-full bg-gray-300"></div>
                 {/* タイムラインの各項目 */}
                 {experiences.map((exp, index) => (
-                    <div key={index} className="flex items-center mb-10 relative">
+                    <div key={index} className="flex items-center mb-5 relative">
                         {/* 丸 */}
                         <div className="absolute -left-7 w-8 h-8 bg-gray-300 rounded-full z-10 flex items-center justify-center">
                             <div className="w-6 h-6 bg-gray-800 rounded-full"></div>
