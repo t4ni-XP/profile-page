@@ -5,7 +5,7 @@ import Career from './components/career';
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center bg-gray-800 text-gray-100 w-2/3 min-h-screen mt-24">
+    <div className="flex flex-col items-center bg-gray-800 text-gray-100 w-2/3 min-h-screen m-24">
       <div className="w-full">
         <Profile />
       </div>
