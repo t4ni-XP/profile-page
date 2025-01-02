@@ -32,15 +32,15 @@ export default function Career() {
     return (
         <div className="flex flex-col items-start m-10 h-auto">
             <h1 className="text-3xl font-bold mb-6">Career</h1>
-            <div className="relative w-full pl-10">
+            <div className="relative w-full pl-12">
                 {/* 縦線 */}
-                <div className="absolute left-6 top-0 w-2 h-full bg-gray-300"></div>
+                <div className="absolute left-7 top-0 w-1 h-full bg-gray-300"></div>
                 {/* タイムラインの各項目 */}
                 {experiences.map((exp, index) => (
                     <div key={index} className="flex items-center mb-5 relative">
                         {/* 丸 */}
-                        <div className="absolute -left-7 w-8 h-8 bg-gray-300 rounded-full z-10 flex items-center justify-center">
-                            <div className="w-6 h-6 bg-gray-800 rounded-full"></div>
+                        <div className="absolute -left-7 w-5 h-5 bg-gray-300 rounded-full z-10 flex items-center justify-center">
+                            {/* <div className="w-4 h-4 bg-gray-800 rounded-full"></div> */}
                         </div>
                         {/* テキスト */}
                         <div className="ml-12">
