@@ -5,9 +5,9 @@ export default function TechStack() {
   return (
     <div className="m-10">
       <h1 className="text-3xl font-bold mb-4">TECH</h1>
-      <div className="grid grid-cols-2 sm:grid-cols-3 gap-6 justify-items-center">
+      <div className="flex flex-col sm:grid sm:grid-cols-3 gap-6 sm:justify-items-center">
         {/* Python */}
-        <div className="flex flex-col items-center">
+        <div className="flex items-start sm:items-center">
           <Image
             src="/python.svg"
             alt="Python Logo"
@@ -17,18 +17,8 @@ export default function TechStack() {
           />
         </div>
 
-        {/* JavaScript */}
-        {/* <div className="flex flex-col items-center">
-          <Image
-            src="/js.png"
-            alt="JavaScript Logo"
-            width={60}
-            height={60}
-          />
-        </div> */}
-
         {/* TypeScript */}
-        <div className="flex flex-col items-center">
+        <div className="flex items-start sm:items-center">
           <Image
             src="/ts-logo.svg"
             alt="TypeScript Logo"
@@ -38,7 +28,7 @@ export default function TechStack() {
         </div>
 
         {/* Next.js */}
-        <div className="flex flex-col items-center">
+        <div className="flex items-start sm:items-center">
           <Image
             src="/nextjs-logotype.svg"
             alt="Next.js Logo"
