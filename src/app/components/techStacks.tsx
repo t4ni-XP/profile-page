@@ -4,7 +4,7 @@ import Image from 'next/image';
 export default function TechStack() {
   return (
     <div className="m-10">
-      <h1 className="text-3xl font-bold mb-4">TECH</h1>
+      <h1 className="text-3xl font-bold mb-6">TECH</h1>
       <div className="flex flex-col sm:grid sm:grid-cols-3 gap-6 sm:justify-items-center">
         {/* Next.js */}
         <div className="flex items-start sm:items-center">
@@ -16,16 +16,6 @@ export default function TechStack() {
             style={{ height: '40px', width: 'auto' }}
           />
         </div>
-
-        {/* JavaScript */}
-        {/* <div className="flex flex-col items-center">
-          <Image
-            src="/js.png"
-            alt="JavaScript Logo"
-            width={60}
-            height={60}
-          />
-        </div> */}
 
         {/* TypeScript */}
         <div className="flex flex-col sm:items-center">
