@@ -9,7 +9,7 @@ export default function Career() {
         // },
         {
             year: "2024/11 - Present",
-            title: "Web Developer Intern at Yard Corp.",
+            title: "Web Developer Internship at Yard Corp.",
             description: "Developing modern web applications using Next.js.",
         },
         {
