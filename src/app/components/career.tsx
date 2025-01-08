@@ -31,7 +31,7 @@ export default function Career() {
 
     return (
         <div className="flex flex-col items-start m-10 h-auto">
-            <h1 className="text-3xl font-bold mb-6">Career</h1>
+            <h1 className="text-3xl font-bold mb-6">CAREER</h1>
             <div className="relative w-full pl-12">
                 {/* 縦線 */}
                 <div className="absolute left-7 top-0 w-1 h-full bg-gray-300"></div>
@@ -46,7 +46,7 @@ export default function Career() {
                         <div className="ml-12">
                             <h2 className="text-md">{exp.year}</h2>
                             <h3 className="text-md">{exp.title}</h3>
-                            <p className="text-sm text-gray-500">{exp.description}</p>
+                            <p className="text-sm text-gray-400">{exp.description}</p>
                         </div>
                     </div>
                 ))}
