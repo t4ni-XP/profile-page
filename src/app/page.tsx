@@ -5,7 +5,7 @@ import TechStack from './components/techStacks';
 import Career from './components/career';
 
 export default function Home() {
-  
+
 
   return (
     <div className="flex flex-col items-center bg-dark-pink text-gray-100 w-full sm:w-2/3 min-h-screen sm:m-24 sm:rounded-lg">

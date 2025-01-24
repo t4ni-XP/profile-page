@@ -1,12 +1,16 @@
 "use client";
 
 import React, { useState } from "react";
+import { useDarkTheme } from "../contexts/darkThemeContext";
 
 const DarkModeSwitcher = () => {
   const [theme, setTheme] = useState("dark");
+  const { darkTheme, toggleTheme } = useDarkTheme();
 
   const switchTheme = () => {
     setTheme((prevTheme) => (prevTheme === "light" ? "dark" : "light"));
+    toggleTheme();
+    console.log(darkTheme)
   };
 
   return (
