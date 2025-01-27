@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 
-export default function Profile() {
+export default function ProfileJp() {
   return (
     <div className="h-64 w-fill mt-10 ml-10 rounded-lg">
       <h1 className="text-3xl font-bold mb-3">PROFILE</h1>
@@ -19,16 +19,15 @@ export default function Profile() {
 
         {/* プロフィールテキスト */}
         <div className="flex flex-col">
-          <h1 className="sm:text-3xl font-bold mb-1 sm:mb-4">Mizuki Taniguchi</h1>
+          <h1 className="sm:text-3xl mb-1 sm:mb-4">谷口 瑞樹</h1>
           <p className="text-gray-300">
             {/* Web Developer. Orienteer. \n Currently studying at University of Tsukuba. */}
             <span className="block">Web Engineer</span>
             <span className="block">Orienteer</span>
             <span className="block">
-              University of Tsukuba
-            </span>
-            <span className="block">
-              Twitter : <a href="https://x.com/t4ni_XP" target="_blank">@t4ni_XP</a> / GitHub : <a href="https://github.com/t4ni-XP" target="_blank">t4ni-XP</a>
+              筑波大学 情報学群情報科学類
+            </span><span className="block">
+              Twitter:<a href="https://x.com/t4ni_XP" target="_blank">@t4ni_XP</a> / GitHub:<a href="https://github.com/t4ni-XP" target="_blank">t4ni-XP</a>
             </span>
           </p>
         </div>
