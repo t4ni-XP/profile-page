@@ -27,8 +27,14 @@ export default function Profile() {
             <span className="block">
               University of Tsukuba
             </span>
-            <span className="block">
+            <span className="hidden md:block">
               Twitter : <a href="https://x.com/t4ni_XP" target="_blank">@t4ni_XP</a> / GitHub : <a href="https://github.com/t4ni-XP" target="_blank">t4ni-XP</a>
+            </span>
+            <span className="block visible md:invisible">
+              Twitter : <a href="https://x.com/t4ni_XP" target="_blank">@t4ni_XP</a>
+            </span>
+            <span className="block visible md:invisible">
+              GitHub : <a href="https://github.com/t4ni-XP" target="_blank">t4ni-XP</a>
             </span>
           </p>
         </div>
