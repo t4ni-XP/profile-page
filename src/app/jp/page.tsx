@@ -1,6 +1,6 @@
 import ProfileJp from '@/app/components/profileJp';
 import InterestsJp from '@/app/components/interestsJp';
-import TechStackJp from '@/app/components/techStacksJp';
+import TechStack from '@/app/components/techStacks';
 import CareerJp from '@/app/components/careerJp';
 import Link from 'next/link';
 
@@ -24,7 +24,7 @@ export default function JpHome() {
         <InterestsJp />
       </div>
       <div className="w-full">
-        <TechStackJp />
+        <TechStack />
       </div>
       <div className="w-full">
         <CareerJp />
