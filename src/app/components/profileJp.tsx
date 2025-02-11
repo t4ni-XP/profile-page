@@ -24,10 +24,34 @@ export default function ProfileJp() {
             {/* Web Developer. Orienteer. \n Currently studying at University of Tsukuba. */}
             <span className="block">Web Engineer</span>
             <span className="block">Orienteer</span>
-            <span className="block">
+            {/* <span className="block">筑波大学 情報学群情報科学類</span> */}
+            <span className="hidden md:block">
               筑波大学 情報学群情報科学類
-            </span><span className="block">
-              Twitter:<a href="https://x.com/t4ni_XP" target="_blank">@t4ni_XP</a> / GitHub:<a href="https://github.com/t4ni-XP" target="_blank">t4ni-XP</a>
+            </span>
+            <span className="block md:hidden">
+              筑波大学
+            </span>
+            <span className="hidden md:block">
+              Twitter :{' '}
+              <a href="https://x.com/t4ni_XP" target="_blank">
+                @t4ni_XP
+              </a>{' '}
+              / GitHub :{' '}
+              <a href="https://github.com/t4ni-XP" target="_blank">
+                t4ni-XP
+              </a>
+            </span>
+            <span className="block visible md:hidden">
+              Twitter :{' '}
+              <a href="https://x.com/t4ni_XP" target="_blank">
+                @t4ni_XP
+              </a>
+            </span>
+            <span className="block visible md:hidden">
+              GitHub :{' '}
+              <a href="https://github.com/t4ni-XP" target="_blank">
+                t4ni-XP
+              </a>
             </span>
           </p>
         </div>
