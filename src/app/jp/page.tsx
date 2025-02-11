@@ -2,6 +2,7 @@ import ProfileJp from '@/app/components/profileJp';
 import InterestsJp from '@/app/components/interestsJp';
 import TechStackJp from '@/app/components/techStacksJp';
 import CareerJp from '@/app/components/careerJp';
+import Link from 'next/link';
 
 export default function JpHome() {
   return (
@@ -9,7 +10,7 @@ export default function JpHome() {
       {/* 右上に言語切替ボタンを絶対配置 */}
       <div className="absolute top-0 right-0 m-4 flex items-center">
         {/* <span className="text-gray-400">EN</span> */}
-        <a href="/" className="text-gray-100">EN</a>
+        <Link href="/" className="text-gray-100">EN</Link>
         <span className="mx-2">/</span>
         <span className="text-gray-400">JP</span>
       </div>

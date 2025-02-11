@@ -2,6 +2,7 @@ import Profile from './components/profile';
 import Interests from './components/interests';
 import TechStack from './components/techStacks';
 import Career from './components/career';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -10,7 +11,7 @@ export default function Home() {
       <div className="absolute top-0 right-0 m-4 flex items-center">
         <span className="text-gray-400">EN</span>
         <span className="mx-2">/</span>
-        <a href="/jp" className="text-gray-100">JP</a>
+        <Link href="/jp" className="text-gray-100">JP</Link>
       </div>
 
       <div className="w-full">
