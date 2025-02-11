@@ -11,7 +11,9 @@ export default function Home() {
       <div className="absolute top-0 right-0 m-4 flex items-center">
         <span className="text-gray-400">EN</span>
         <span className="mx-2">/</span>
-        <Link href="/jp" className="text-gray-100">JP</Link>
+        <Link href="/jp" className="text-gray-100">
+          JP
+        </Link>
       </div>
 
       <div className="w-full">
