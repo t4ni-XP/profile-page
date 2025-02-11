@@ -25,12 +25,8 @@ export default function ProfileJp() {
             <span className="block">Web Engineer</span>
             <span className="block">Orienteer</span>
             {/* <span className="block">筑波大学 情報学群情報科学類</span> */}
-            <span className="hidden md:block">
-              筑波大学 情報学群情報科学類
-            </span>
-            <span className="block md:hidden">
-              筑波大学
-            </span>
+            <span className="hidden md:block">筑波大学 情報学群情報科学類</span>
+            <span className="block md:hidden">筑波大学</span>
             <span className="hidden md:block">
               Twitter :{' '}
               <a href="https://x.com/t4ni_XP" target="_blank">

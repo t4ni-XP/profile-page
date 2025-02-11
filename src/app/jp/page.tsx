@@ -10,7 +10,9 @@ export default function JpHome() {
       {/* 右上に言語切替ボタンを絶対配置 */}
       <div className="absolute top-0 right-0 m-4 flex items-center">
         {/* <span className="text-gray-400">EN</span> */}
-        <Link href="/" className="text-gray-100">EN</Link>
+        <Link href="/" className="text-gray-100">
+          EN
+        </Link>
         <span className="mx-2">/</span>
         <span className="text-gray-400">JP</span>
       </div>

@@ -36,6 +36,33 @@ export default function TechStack() {
             style={{ height: '64px', width: 'auto' }} // 縦幅固定、横幅自動調整
           />
         </div>
+
+        {/* docker */}
+        <div className="flex items-start sm:mt-4 sm:items-center">
+          <Image
+            src="/docker-logo-white.svg"
+            alt="Docker Logo"
+            width={200} // 元の画像サイズに合わせた適切な値
+            height={100}
+            style={{ height: '60px', width: 'auto' }} // 縦幅固定、横幅自動調整
+          />
+        </div>
+
+        {/* googleCloud */}
+        {/* <div
+          className="relative flex items-start mt-4 sm:items-center overflow-hidden"
+          style={{ height: '100px', width: '400px' }}  // コンテナのサイズを固定
+        >
+          <Image
+            src="/gcloud.svg"
+            alt="Google Cloud Logo"
+            fill  // コンテナにフィットさせるため fill レイアウトを利用
+            style={{
+              objectFit: 'cover',       // コンテナを埋める（はみ出す部分は切れる）
+              objectPosition: 'center'    // 中心を基準に表示
+            }}
+          />
+        </div> */}
       </div>
     </div>
   );
