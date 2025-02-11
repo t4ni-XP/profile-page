@@ -3,7 +3,7 @@ import InterestsJp from '@/app/components/interestsJp';
 import TechStackJp from '@/app/components/techStacksJp';
 import CareerJp from '@/app/components/careerJp';
 
-export default function Home() {
+export default function JpHome() {
   return (
     <div className="flex flex-col items-center bg-dark-pink text-gray-100 w-full sm:w-2/3 min-h-screen sm:m-24 sm:rounded-lg">
       <div className="w-full">

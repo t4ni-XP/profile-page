@@ -15,7 +15,7 @@ export default function CareerJp() {
         {
             year: "2024/04",
             title: "システムセキュリティ研究室に配属",
-            description: "セキュリティーについて研究を行う",
+            description: "セキュリティについて研究",
         },
         {
             year: "2021/04",
