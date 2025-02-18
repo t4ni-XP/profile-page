@@ -4,17 +4,15 @@ import React, { useState } from "react";
 import { useDarkTheme } from "../contexts/darkThemeContext";
 
 const DarkModeSwitcher = () => {
-  const [theme, setTheme] = useState("dark");
   const { darkTheme, toggleTheme } = useDarkTheme();
 
   const switchTheme = () => {
-    setTheme((prevTheme) => (prevTheme === "light" ? "dark" : "light"));
     toggleTheme();
-    console.log(darkTheme)
+    console.log("darkTheme is now:", darkTheme);
   };
 
   return (
-    <div style={{ padding: "20px", textAlign: "center" }}>
+    <div style={{ textAlign: "center" }}>
       <label
         style={{
           display: "inline-flex",
@@ -24,7 +22,7 @@ const DarkModeSwitcher = () => {
       >
         <input
           type="checkbox"
-          checked={theme === "dark"}
+          checked={darkTheme === "dark"}
           onChange={switchTheme}
           style={{ display: "none" }} // チェックボックスは非表示
         />
@@ -32,7 +30,7 @@ const DarkModeSwitcher = () => {
           style={{
             width: "50px",
             height: "25px",
-            backgroundColor: theme === "dark" ? "#000000" : "#cccccc",
+            backgroundColor: darkTheme === "dark" ? "#000000" : "#cccccc",
             borderRadius: "25px",
             position: "relative",
             transition: "background-color 0.3s",
@@ -47,7 +45,7 @@ const DarkModeSwitcher = () => {
               backgroundColor: "#ffffff",
               borderRadius: "50%",
               top: "50%",
-              left: theme === "dark" ? "5px" : "25px",
+              left: darkTheme === "dark" ? "5px" : "25px",
               transform: "translateY(-50%)",
               transition: "left 0.3s",
               boxShadow: "0 2px 4px rgba(0, 0, 0, 0.2)",
@@ -55,7 +53,7 @@ const DarkModeSwitcher = () => {
           />
         </span>
         <span style={{ marginLeft: "10px", fontSize: "16px" }}>
-          {theme === "dark" ? "Dark Mode" : "Light Mode"}
+          {darkTheme === "dark" ? "Dark Mode" : "Light Mode"}
         </span>
       </label>
     </div>
