@@ -11,6 +11,8 @@ export default {
       colors: {
         background: 'var(--background)',
         foreground: 'var(--foreground)',
+        'foreground-primary': 'var(--foreground-primary)',
+        'foreground-secondary': 'var(--foreground-secondary)',
       },
       backgroundImage: {
         'neon-blue-pink': 'linear-gradient(135deg, #00d9ff, #0077ff, #ff00cc)',
@@ -27,6 +29,25 @@ export default {
         'blue-calm': 'linear-gradient(90deg, #0099cc, #3366ff, #6699ff)',
         'cyber-blue': 'linear-gradient(90deg, #0033ff, #00aaff, #ff66ff)',
         'mystic-purple': 'linear-gradient(90deg, #0011ff, #6633cc, #ff99cc)',
+
+
+        // 以下がライトテーマ用の背景色例 (いずれか1つまたは複数を選択)
+        'light-pink': 'linear-gradient(120deg, #ffe4fa, #ffc7f0)',
+        'soft-lavender': 'linear-gradient(120deg, #e8e3fa, #fdeafa)',
+        'pastel-pink': 'linear-gradient(120deg, #ffe7f1, #ffdcee)',
+        'light-blossom': 'linear-gradient(120deg, #fce4fc, #fff0fb)',
+
+        // ① はっきりしたピンク×ブルーのグラデーション
+        'pink-horizon': 'linear-gradient(120deg, #A8D1FF 0%, #FFA8EF 100%)',
+        
+        // ② パステルのピーチ×ピンクのグラデーション
+        'sunrise-peach': 'linear-gradient(120deg, #FEDAC7 0%, #FCE6FB 100%)',
+        
+        // ③ 淡いミントグリーン×パステルピンクのグラデーション
+        'pastel-twilight': 'linear-gradient(120deg, #C2FFD8 0%, #FFD1FF 100%)',
+        
+        // ④ パープル×スカイブルー系の鮮やかなグラデーション
+        'vibrant-lavender': 'linear-gradient(120deg, #A3D8F4 0%, #E4C1F9 100%)',
       },
     },
   },

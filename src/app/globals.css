@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 :root {
-  --background: #000000; /* 黒ベース */
-  --foreground: #f5f5f5; /* 明るいグレー（テキストカラー） */
-  --accent: #1f1f1f;     /* コンテナやボタン背景 */
-  --muted: #8a8a8a;      /* サブテキストや控えめな要素 */
+  --background: #ffffff; /* ライトテーマ用 */
+  --foreground: #1f2937;
+  --accent: #3b82f6;
+  --muted: #6b7280;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -18,11 +18,36 @@
   }
 }
 
+.dark {
+  --background: #000000; /* 黒ベース */
+  --foreground: #f5f5f5; /* 明るいグレー（テキストカラー） */
+  --accent: #1f1f1f;     /* コンテナやボタン背景 */
+  --muted: #8a8a8a;      /* サブテキストや控えめな要素 */
+}
+
+.light {
+  --background: #f0f2f5; /* 白すぎず、柔らかいオフホワイト */
+  --foreground: #333333; /* コントラストはしっかりしつつ、目に優しいダークグレー */
+  --accent: #a8d1ff;     /* pink-horizonの青寄りの色味をアクセントに */
+  --muted: #9ca3af;      /* サブテキストなどに使える落ち着いたグレー */
+  --foreground-primary: #2D2D2D;
+  --foreground-secondary: #6E6E6E;
+}
+
+
+/* body {
+  @apply text-gray-100 bg-black; 
+  font-family: 'Inter', Arial, Helvetica, sans-serif; 
+  line-height: 1.6;
+} */
+
 body {
-  @apply text-gray-100 bg-black; /* Tailwindで設定 */
-  font-family: 'Inter', Arial, Helvetica, sans-serif; /* 好みに合わせて変更可能 */
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   line-height: 1.6;
 }
+
 
 /* 全体のリンクスタイル */
 a {
