@@ -13,40 +13,42 @@ export default function Home() {
   const { darkTheme } = useDarkTheme();
 
   return (
-    // ② darkTheme に応じてクラスを切り替え
-    <div
-      className={`relative flex flex-col items-center w-full sm:w-2/3 min-h-screen sm:m-24 sm:rounded-lg 
-      ${
-        darkTheme == "dark"
-          ? "bg-dark-pink text-gray-100" // ダークテーマの場合
-          : "bg-white text-black"        // ライトテーマの場合
-      }
+    <html lang="en" className={`${darkTheme == 'dark' ? 'dark' : 'light'}`}>
+      <body className="flex justify-center">
+        <div
+          className={`relative flex flex-col items-center w-full sm:w-2/3 min-h-screen sm:m-24 sm:rounded-lg 
+      ${darkTheme == "dark"
+              ? "bg-dark-pink text-gray-100" // ダークテーマの場合
+              : "bg-pink-horizon text-foreground-primary"        // ライトテーマの場合
+            }
       `}
-    >
-      {/* 右上に言語切替ボタンを絶対配置 */}
-      <div className="absolute top-0 right-0 m-4 flex items-center">
-        <DarkModeSwitcher />
-        <div className="ml-2 mb-2">
-          <span className="text-gray-400">EN</span>
-          <span className="mx-2">/</span>
-          <Link href="/jp" className="text-gray-100">
-            JP
-          </Link>
-        </div>
-      </div>
+        >
+          {/* 右上に言語切替ボタンを絶対配置 */}
+          <div className="absolute top-0 right-0 m-4 flex items-center">
+            {/* <DarkModeSwitcher /> */}
+            <div className="ml-2 mb-2">
+              <span className="text-gray-400">EN</span>
+              <span className="mx-2">/</span>
+              <Link href="/jp" className="text-gray-100">
+                JP
+              </Link>
+            </div>
+          </div>
 
-      <div className="w-full">
-        <Profile />
-      </div>
-      <div className="w-full">
-        <Interests />
-      </div>
-      <div className="w-full">
-        <TechStack />
-      </div>
-      <div className="w-full">
-        <Career />
-      </div>
-    </div>
+          <div className="w-full">
+            <Profile />
+          </div>
+          <div className="w-full">
+            <Interests />
+          </div>
+          <div className="w-full">
+            <TechStack />
+          </div>
+          <div className="w-full">
+            <Career />
+          </div>
+        </div>
+      </body>
+    </html>
   );
 }

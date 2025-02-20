@@ -14,9 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <ThemeProvider>
-      <html lang="en" className='dark'>
-        <body className="flex justify-center">{children}</body>
-      </html>
+      {children}
     </ThemeProvider>
   );
 }
