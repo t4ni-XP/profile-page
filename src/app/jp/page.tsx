@@ -1,10 +1,9 @@
-'use client'
+'use client';
 
 import ProfileJp from '@/app/components/profileJp';
 import InterestsJp from '@/app/components/interestsJp';
 import TechStack from '@/app/components/techStacks';
 import CareerJp from '@/app/components/careerJp';
-import DarkModeSwitcher from '../components/darkModeSwitcher';
 import { useDarkTheme } from '../contexts/darkThemeContext';
 import Link from 'next/link';
 
@@ -15,16 +14,17 @@ export default function JpHome() {
       <body className="flex justify-center">
         <div
           className={`relative flex flex-col items-center w-full sm:w-2/3 min-h-screen sm:m-24 sm:rounded-lg 
-      ${darkTheme == "dark"
-              ? "bg-dark-pink text-gray-100" // ダークテーマの場合
-              : "bg-pink-horizon text-black"        // ライトテーマの場合
-            }
+      ${
+        darkTheme == 'dark'
+          ? 'bg-dark-pink text-gray-100' // ダークテーマの場合
+          : 'bg-pink-horizon text-black' // ライトテーマの場合
+      }
       `}
         >
           {/* 右上に言語切替ボタンを絶対配置 */}
           <div className="absolute top-0 right-0 m-4 flex items-center">
             {/* <DarkModeSwitcher /> */}
-            <div className='ml-2 mb-2'>
+            <div className="ml-2 mb-2">
               <Link href="/" className="text-gray-100">
                 EN
               </Link>
@@ -47,6 +47,6 @@ export default function JpHome() {
           </div>
         </div>
       </body>
-    </html >
+    </html>
   );
 }

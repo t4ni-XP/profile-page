@@ -1,12 +1,11 @@
-"use client";
+'use client';
 
-import { useDarkTheme } from "./contexts/darkThemeContext";
-import DarkModeSwitcher from "./components/darkModeSwitcher";
-import Profile from "./components/profile";
-import Interests from "./components/interests";
-import TechStack from "./components/techStacks";
-import Career from "./components/career";
-import Link from "next/link";
+import { useDarkTheme } from './contexts/darkThemeContext';
+import Profile from './components/profile';
+import Interests from './components/interests';
+import TechStack from './components/techStacks';
+import Career from './components/career';
+import Link from 'next/link';
 
 export default function Home() {
   // ① useDarkTheme からダークテーマフラグを取得
@@ -17,10 +16,11 @@ export default function Home() {
       <body className="flex justify-center">
         <div
           className={`relative flex flex-col items-center w-full sm:w-2/3 min-h-screen sm:m-24 sm:rounded-lg 
-      ${darkTheme == "dark"
-              ? "bg-dark-pink text-gray-100" // ダークテーマの場合
-              : "bg-pink-horizon text-foreground-primary"        // ライトテーマの場合
-            }
+      ${
+        darkTheme == 'dark'
+          ? 'bg-dark-pink text-gray-100' // ダークテーマの場合
+          : 'bg-pink-horizon text-foreground-primary' // ライトテーマの場合
+      }
       `}
         >
           {/* 右上に言語切替ボタンを絶対配置 */}
