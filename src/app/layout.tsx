@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import './globals.css';
+import { ThemeProvider } from './contexts/darkThemeContext';
 
 export const metadata: Metadata = {
   title: "Mizuki TANIGUCHI's Portfolio",
@@ -11,9 +12,5 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return (
-    <html lang="en">
-      <body className="flex justify-center">{children}</body>
-    </html>
-  );
+  return <ThemeProvider>{children}</ThemeProvider>;
 }
