@@ -23,7 +23,7 @@ export default function JpHome() {
       `}
         >
           {/* 右上に言語切替ボタンを絶対配置 */}
-          <div className="absolute top-0 right-0 m-4 flex items-center">
+          <div className="absolute top-0 right-0 m-4 flex flex-col items-end md:flex-row md:items-center">
             <DarkModeSwitcher />
             <div className="ml-2 mb-2">
               <Link href="/" className="text-gray-100">
