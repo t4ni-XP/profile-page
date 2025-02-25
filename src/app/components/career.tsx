@@ -34,12 +34,12 @@ export default function Career() {
       <h1 className="text-3xl font-bold mb-6">EXPERIENCES</h1>
       <div className="relative w-full pl-12">
         {/* 縦線 */}
-        <div className="absolute left-7 top-0 w-1 h-full bg-gray-500"></div>
+        <div className="absolute left-7 top-0 w-1 h-full bg-timeline-line"></div>
         {/* タイムラインの各項目 */}
         {experiences.map((exp, index) => (
           <div key={index} className="flex items-center mb-5 relative">
             {/* 丸 */}
-            <div className="absolute -left-7 w-5 h-5 bg-gray-400 rounded-full z-10 flex items-center justify-center">
+            <div className="absolute -left-7 w-5 h-5 bg-timeline-node rounded-full z-10 flex items-center justify-center">
               {/* <div className="w-4 h-4 bg-gray-800 rounded-full"></div> */}
             </div>
             {/* テキスト */}
