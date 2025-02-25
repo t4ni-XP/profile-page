@@ -5,7 +5,7 @@
 :root {
   --background: #ffffff; /* ライトテーマ用 */
   --foreground: #1f2937;
-  --accent: #3b82f6;
+  --accent: #B7A8FF;
   --muted: #6b7280;
 }
 
@@ -20,18 +20,24 @@
 
 .dark {
   --background: #000000; /* 黒ベース */
-  --foreground: #f5f5f5; /* 明るいグレー（テキストカラー） */
+  --foreground: #f3f4f6; /* 明るいグレー（テキストカラー） */
   --accent: #1f1f1f;     /* コンテナやボタン背景 */
   --muted: #8a8a8a;      /* サブテキストや控えめな要素 */
+  --foreground-primary: #f3f4f6;
+  --foreground-secondary: #D9A5E8;
+  --tile-bg: rgba(0, 0, 0, 0.6);
+  --foreground-secondary-hover: #c892e1; 
 }
 
 .light {
   --background: #f0f2f5; /* 白すぎず、柔らかいオフホワイト */
   --foreground: #333333; /* コントラストはしっかりしつつ、目に優しいダークグレー */
-  --accent: #a8d1ff;     /* pink-horizonの青寄りの色味をアクセントに */
+  --accent: #B7A8FF;     /* pink-horizonの青寄りの色味をアクセントに */
   --muted: #9ca3af;      /* サブテキストなどに使える落ち着いたグレー */
-  --foreground-primary: #2D2D2D;
-  --foreground-secondary: #6E6E6E;
+  --foreground-primary: #333333;
+  --foreground-secondary: #8A4AA8;
+  --foreground-secondary-hover: #9B5ABB; 
+  --tile-bg: #E8F0FF;
 }
 
 
@@ -51,8 +57,8 @@ body {
 
 /* 全体のリンクスタイル */
 a {
-  @apply text-gray-400 hover:text-gray-300;
-  text-decoration: none;
+  @apply text-foreground-secondary hover:text-foreground-secondary-hover;
+  text-decoration: none;  
 }
 
 /* グローバルなボックススタイル */

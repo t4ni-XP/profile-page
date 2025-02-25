@@ -6,6 +6,7 @@ import TechStack from '@/app/components/techStacks';
 import CareerJp from '@/app/components/careerJp';
 import { useDarkTheme } from '../contexts/darkThemeContext';
 import Link from 'next/link';
+import DarkModeSwitcher from '../components/darkModeSwitcher';
 
 export default function JpHome() {
   const { darkTheme } = useDarkTheme();
@@ -16,14 +17,14 @@ export default function JpHome() {
           className={`relative flex flex-col items-center w-full sm:w-2/3 min-h-screen sm:m-24 sm:rounded-lg 
       ${
         darkTheme == 'dark'
-          ? 'bg-dark-pink text-gray-100' // ダークテーマの場合
-          : 'bg-pink-horizon text-black' // ライトテーマの場合
+          ? 'bg-dark-pink text-foreground-primary' // ダークテーマの場合
+          : 'bg-pink-horizon text-foreground-primary' // ライトテーマの場合
       }
       `}
         >
           {/* 右上に言語切替ボタンを絶対配置 */}
           <div className="absolute top-0 right-0 m-4 flex items-center">
-            {/* <DarkModeSwitcher /> */}
+            <DarkModeSwitcher />
             <div className="ml-2 mb-2">
               <Link href="/" className="text-gray-100">
                 EN

@@ -46,7 +46,7 @@ export default function Career() {
             <div className="ml-12">
               <h2 className="text-md">{exp.year}</h2>
               <h3 className="text-md">{exp.title}</h3>
-              <p className="text-sm text-gray-400">{exp.description}</p>
+              <p className="text-sm text-foreground-secondary">{exp.description}</p>
             </div>
           </div>
         ))}

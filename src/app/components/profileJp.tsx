@@ -20,7 +20,7 @@ export default function ProfileJp() {
         {/* プロフィールテキスト */}
         <div className="flex flex-col">
           <h1 className="sm:text-3xl mb-1 sm:mb-4">谷口 瑞樹</h1>
-          <p className="text-gray-300">
+          <p>
             {/* Web Developer. Orienteer. \n Currently studying at University of Tsukuba. */}
             <span className="block">Web Engineer</span>
             <span className="block">Orienteer</span>
