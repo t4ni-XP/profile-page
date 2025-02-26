@@ -26,11 +26,11 @@ export default function JpHome() {
           <div className="absolute top-0 right-0 m-4 flex flex-col items-end md:flex-row md:items-center">
             <DarkModeSwitcher />
             <div className="ml-2 mb-2">
-              <Link href="/" className="text-gray-100">
+              <Link href="/" className="text-foreground-primary">
                 EN
               </Link>
               <span className="mx-2">/</span>
-              <span className="text-gray-400">JP</span>
+              <span className="text-foreground-secondary">JP</span>
             </div>
           </div>
 
