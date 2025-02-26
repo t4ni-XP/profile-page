@@ -7,18 +7,20 @@ export default function ProfileJp() {
       <h1 className="text-3xl font-bold mb-3">PROFILE</h1>
       <div className="flex items-center mr-10 mb-10 ml-0 space-x-8">
         {/* 画像をラップしているコンテナ */}
-        <div className="flex items-center justify-center h-40 w-40 overflow-hidden">
-          <Image
-            src="/MizukiTaniguchi.jpeg"
-            alt="Mizuki Taniguchi"
-            className="rounded-full shadow-lg"
-            width={192}
-            height={192}
-          />
+        <div className="flex items-center justify-center h-32 w-1/2 max-w-32 sm:w-40 overflow-hidden ">
+          <div className='flex items-center justify-center max-h-full aspect-square sm:w-full sm:h-full'>
+            <Image
+              src="/MizukiTaniguchi.jpeg"
+              alt="Mizuki Taniguchi"
+              className="rounded-full"
+              width={192}
+              height={192}
+            />
+          </div>
         </div>
 
         {/* プロフィールテキスト */}
-        <div className="flex flex-col">
+        <div className="flex flex-col w-1/2 sm:w-full">
           <h1 className="sm:text-3xl mb-1 sm:mb-4">谷口 瑞樹</h1>
           <p>
             {/* Web Developer. Orienteer. \n Currently studying at University of Tsukuba. */}

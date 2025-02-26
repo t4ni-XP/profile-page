@@ -55,6 +55,10 @@
   /* ほんのり紫のグロー */
 }
 
+.clip-circle {
+  clip-path: circle(50% at 50% 50%);
+}
+
 /* body {
   @apply text-gray-100 bg-black; 
   font-family: 'Inter', Arial, Helvetica, sans-serif; 
