@@ -39,9 +39,14 @@ export default function Career() {
         {experiences.map((exp, index) => (
           <div key={index} className="flex items-center mb-5 relative">
             {/* 丸 */}
-            <div className="absolute -left-7 w-5 h-5 bg-timeline-node rounded-full z-10 flex items-center justify-center">
-              {/* <div className="w-4 h-4 bg-gray-800 rounded-full"></div> */}
+            {/* <div className="absolute -left-7 w-5 h-5 bg-timeline-node rounded-full z-10 flex items-center justify-center"> */}
+            {/* <div className="w-4 h-4 bg-gray-800 rounded-full"></div> */}
+            {/* </div> */}
+            <div className="absolute -left-7 w-5 h-5 bg-timeline-node-outer rounded-full z-10 flex items-center justify-center">
+              {/* 内側が小さい丸 */}
+              <div className="w-3 h-3 bg-timeline-node-inner rounded-full" />
             </div>
+
             {/* テキスト */}
             <div className="ml-12">
               <h2 className="text-md">{exp.year}</h2>

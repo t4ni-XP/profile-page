@@ -17,7 +17,8 @@ export default {
         'foreground-secondary-hover': 'var(--foreground-secondary-hover)',
         'tile-bg': 'var(--tile-bg)',
         'timeline-line': 'var(--timeline-line)',
-        'timeline-node': 'var(--timeline-node)',
+        'timeline-node-outer': 'var(--timeline-node-outer)',
+        'timeline-node-inner': 'var(--timeline-node-inner)',
       },
       backgroundImage: {
         // light theme bg color

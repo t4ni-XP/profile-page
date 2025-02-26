@@ -29,7 +29,9 @@
   --foreground-secondary-hover: #c892e1; 
   /* タイムライン用の色（ダークテーマ） */
   --timeline-line: #9043A3; /* foreground-secondaryと同系統 */
-  --timeline-node: #78388C; /* hover時よりやや明るい紫など */
+  /* 二重丸の外側 & 内側 */
+  --timeline-node-outer: #8B4EAA80; /* 80%透明にした同系色 */
+  --timeline-node-inner: #C892E1;   /* しっかり濃い紫 */
 }
 
 .light {
@@ -43,9 +45,15 @@
   --tile-bg: #E8F0FF;
   /* タイムライン用の色（ライトテーマ） */
   --timeline-line: #B7A8FF; /* accent を流用 */
-  --timeline-node: #8A4AA8; /* foreground-secondary を流用 */
+  /* 二重丸の外側 & 内側 */
+  --timeline-node-outer: #B7A8FF80; /* 80%透明にした同系色 */
+  --timeline-node-inner: #8A4AA8;   /* 濃い紫で締める */
 }
 
+.timeline-node-glow {
+  box-shadow: 0 0 8px 2px rgba(200, 146, 225, 0.5); 
+  /* ほんのり紫のグロー */
+}
 
 /* body {
   @apply text-gray-100 bg-black; 
