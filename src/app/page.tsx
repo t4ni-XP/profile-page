@@ -28,9 +28,9 @@ export default function Home() {
           <div className="absolute top-0 right-0 m-4 flex flex-col items-end md:flex-row md:items-center">
             <DarkModeSwitcher />
             <div className="ml-2 mb-2">
-              <span className="text-gray-400">EN</span>
+              <span className="text-foreground-secondary">EN</span>
               <span className="mx-2">/</span>
-              <Link href="/jp" className="text-gray-100">
+              <Link href="/jp" className="text-foreground-primary">
                 JP
               </Link>
             </div>
