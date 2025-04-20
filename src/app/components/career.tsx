@@ -8,6 +8,16 @@ export default function Career() {
     //     description: "Worked on building modern web applications using Next.js.",
     // },
     {
+      year: '2025/4 - Present',
+      title: 'Web Developer Internship at Start-up.',
+      description: 'Developing modern web applications using Next.js.',
+    },
+    {
+      year: '2024/03',
+      title: 'Web Developer Internship at Start-up.',
+      description: 'Developing modern web applications using Next.js.',
+    },
+    {
       year: '2024/11 - Present',
       title: 'Web Developer Internship at Start-up.',
       description: 'Developing modern web applications using Next.js.',
