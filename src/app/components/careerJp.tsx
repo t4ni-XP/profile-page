@@ -13,8 +13,8 @@ export default function CareerJp() {
       description: 'HMIに関する研究を予定',
     },
     {
-      year: '2024/11 - 現在',
-      title: 'スタートアップ企業でのインターン',
+      year: '2024/11',
+      title: 'スタートアップ企業でのインターン開始',
       description: 'Next.jsを用いたwebアプリケーションの開発',
     },
     {
@@ -39,7 +39,7 @@ export default function CareerJp() {
       <h1 className="text-3xl mb-6">経歴</h1>
       <div className="relative w-full pl-12">
         {/* 縦線 */}
-        <div className="absolute left-7 top-0 w-1 h-full bg-gray-500"></div>
+        <div className="absolute left-7 top-0 w-1 h-full bg-timeline-line"></div>
         {/* タイムラインの各項目 */}
         {experiences.map((exp, index) => (
           <div key={index} className="flex items-center mb-5 relative">

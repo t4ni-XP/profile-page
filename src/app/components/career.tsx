@@ -14,7 +14,7 @@ export default function Career() {
         'Conducting research on automotive interfaces, human factors, and Human-Machine Interaction (HMI).',
     },
     {
-      year: '2024/11 - Present',
+      year: '2024/11',
       title: 'Web Developer Internship at Start-up.',
       description: 'Developing modern web applications using Next.js.',
     },
