@@ -37,7 +37,7 @@ export default function Career() {
 
   return (
     <div className="flex flex-col items-start m-10 h-auto">
-      <h1 className="text-3xl font-bold mb-6">EXPERIENCES</h1>
+      <h1 className="text-3xl mb-6">EXPERIENCES</h1>
       <div className="relative w-full pl-12">
         {/* 縦線 */}
         <div className="absolute left-7 top-0 w-1 h-full bg-timeline-line"></div>

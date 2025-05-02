@@ -4,7 +4,7 @@ import Image from 'next/image';
 export default function ProfileJp() {
   return (
     <div className="h-64 w-fill mt-10 ml-10 rounded-lg">
-      <h1 className="text-3xl font-bold mb-3">PROFILE</h1>
+      {/* <h1 className="text-3xl mb-3">PROFILE</h1> */}
       <div className="flex items-center mr-10 mb-10 ml-0 space-x-8">
         {/* 画像をラップしているコンテナ */}
         <div className="flex items-center justify-center h-32 w-1/2 max-w-32 sm:w-40 overflow-hidden ">

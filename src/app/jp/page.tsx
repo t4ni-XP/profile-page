@@ -38,10 +38,10 @@ export default function JpHome() {
             <ProfileJp />
           </div>
           <div className="w-full">
-            <Interests />
+            <TechStack />
           </div>
           <div className="w-full">
-            <TechStack />
+            <Interests />
           </div>
           <div className="w-full">
             <CareerJp />

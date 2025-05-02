@@ -40,10 +40,10 @@ export default function Home() {
             <Profile />
           </div>
           <div className="w-full">
-            <Interests />
+            <TechStack />
           </div>
           <div className="w-full">
-            <TechStack />
+            <Interests />
           </div>
           <div className="w-full">
             <Career />
