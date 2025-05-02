@@ -8,6 +8,12 @@ export default function Career() {
     //     description: "Worked on building modern web applications using Next.js.",
     // },
     {
+      year: '2025/4',
+      title: 'Started Master’s Program in Risk and Resilience Engineering.',
+      description:
+        'Conducting research on automotive interfaces, human factors, and Human-Machine Interaction (HMI).',
+    },
+    {
       year: '2024/11 - Present',
       title: 'Web Developer Internship at Start-up.',
       description: 'Developing modern web applications using Next.js.',

@@ -8,19 +8,24 @@ export default function CareerJp() {
     //     description: "Worked on building modern web applications using Next.js.",
     // },
     {
+      year: '2025/4',
+      title: '筑波大学大学院進学',
+      description: 'HMIに関する研究を予定',
+    },
+    {
       year: '2024/11 - 現在',
-      title: 'スタートアップ企業にてインターン中',
+      title: 'スタートアップ企業でのインターン',
       description: 'Next.jsを用いたwebアプリケーションの開発',
     },
     {
       year: '2024/04',
       title: 'システムセキュリティ研究室に配属',
-      description: 'セキュリティについて研究',
+      description: 'マルウェア検知について研究',
     },
     {
       year: '2021/04',
       title: '筑波大学入学',
-      description: 'コンピュータサイエンスについて学習',
+      description: '情報学群情報科学類',
     },
     {
       year: '2002/04/15',

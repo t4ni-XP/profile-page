@@ -38,7 +38,7 @@ export default function TechStack() {
         </div>
 
         {/* docker */}
-        <div className="flex items-start sm:mt-4 sm:items-center">
+        {/* <div className="flex items-start sm:mt-4 sm:items-center">
           <Image
             src="/docker-logo-white.svg"
             alt="Docker Logo"
@@ -46,7 +46,7 @@ export default function TechStack() {
             height={100}
             style={{ height: '60px', width: 'auto' }} // 縦幅固定、横幅自動調整
           />
-        </div>
+        </div> */}
 
         {/* googleCloud */}
         {/* <div

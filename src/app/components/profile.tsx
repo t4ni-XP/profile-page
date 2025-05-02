@@ -8,7 +8,7 @@ export default function Profile() {
       <div className="flex items-center mr-10 mb-10 ml-0 space-x-8">
         {/* 画像をラップしているコンテナ */}
         <div className="flex items-center justify-center h-32 w-1/2 max-w-32 sm:w-40 overflow-hidden ">
-          <div className='flex items-center justify-center max-h-full aspect-square'>
+          <div className="flex items-center justify-center max-h-full aspect-square">
             <Image
               src="/MizukiTaniguchi.jpeg"
               alt="Mizuki Taniguchi"
@@ -29,6 +29,9 @@ export default function Profile() {
             <span className="block">Web Engineer</span>
             <span className="block">Orienteer</span>
             <span className="block">University of Tsukuba</span>
+            <span className="block">
+              Laboratory for Cognitive System Science
+            </span>
             <span className="hidden md:block">
               Twitter :{' '}
               <a href="https://x.com/t4ni_XP" target="_blank">
