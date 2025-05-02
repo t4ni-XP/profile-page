@@ -1,12 +1,12 @@
 'use client';
 
 import ProfileJp from '@/app/components/profileJp';
-import InterestsJp from '@/app/components/interestsJp';
 import TechStack from '@/app/components/techStacks';
 import CareerJp from '@/app/components/careerJp';
 import { useDarkTheme } from '../contexts/darkThemeContext';
 import Link from 'next/link';
 import DarkModeSwitcher from '../components/darkModeSwitcher';
+import Interests from '../components/interests';
 
 export default function JpHome() {
   const { darkTheme } = useDarkTheme();
@@ -38,7 +38,7 @@ export default function JpHome() {
             <ProfileJp />
           </div>
           <div className="w-full">
-            <InterestsJp />
+            <Interests />
           </div>
           <div className="w-full">
             <TechStack />
