@@ -25,8 +25,10 @@ export default function Home() {
       `}
         >
           {/* 右上に言語切替ボタンを絶対配置 */}
-          <div className="absolute top-0 right-0 m-4 flex flex-col items-end md:flex-row md:items-center">
-            <DarkModeSwitcher />
+          <div className="absolute top-0 right-0 m-2 md:m-4 flex flex-col items-end md:flex-row md:items-center">
+            <div className="hidden md:block">
+              <DarkModeSwitcher />
+            </div>
             <div className="ml-2 mb-2">
               <span className="text-foreground-secondary">EN</span>
               <span className="mx-2">/</span>

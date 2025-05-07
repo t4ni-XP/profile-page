@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function Profile() {
   return (
-    <div className="h-64 w-fill mt-10 ml-10 rounded-lg">
+    <div className="h-56 w-fill mt-14 ml-10 rounded-lg">
       {/* <h1 className="text-3xl mb-3">PROFILE</h1> */}
       <div className="flex items-center mr-10 mb-10 ml-0 space-x-8">
         {/* 画像をラップしているコンテナ */}
