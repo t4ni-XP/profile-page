@@ -11,7 +11,7 @@ export default function Career() {
       year: '2025/4',
       title: 'Started Master’s Program in Risk and Resilience Engineering.',
       description:
-        'Conducting research on automotive interfaces, human factors, and Human-Machine Interaction (HMI).',
+        'Conducting research on automotive interfaces, human factors, and Human-Machine Interaction.',
     },
     {
       year: '2024/11',
