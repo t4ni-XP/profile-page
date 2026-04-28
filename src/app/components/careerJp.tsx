@@ -10,7 +10,7 @@ export default function CareerJp() {
     {
       year: '2025/4',
       title: '筑波大学大学院進学',
-      description: 'インタフェースに関する研究を予定',
+      description: 'ヒューマンファクターに関する研究を開始',
     },
     {
       year: '2024/11',
